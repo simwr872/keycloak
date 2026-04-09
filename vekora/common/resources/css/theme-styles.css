@@ -1,3 +1,14 @@
-:root {
-    --keycloak-logo-url: url('../img/logo.svg');
+div.vekora-logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: .25em;
+}
+div.vekora-logo span {
+    background-image: url('../img/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.5em;
+    height: 1.5em;
 }
